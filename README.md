@@ -11,6 +11,14 @@
   b.innerHTML = 'PAGE LOADED';                             
 }
   </script>
+  
+  <style>
+    #pageStatus {
+  color:blue;
+  border: 1px solid blue;
+  padding: 2px;
+  }
+   </style>
    
   </head>
   <body onLoad='init();'>
