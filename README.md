@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <title>My Pen</title>
    
+   <script>
+   function init()
+{
+  let b = document.querySelector("#pageStatus");
+  b.innerHTML = 'PAGE LOADED';                             
+}
+  </script>
    
   </head>
   <body onLoad='init();'>
