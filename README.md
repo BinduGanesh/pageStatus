@@ -2,13 +2,13 @@
 <html>
   <head lang="en">
     <meta charset="utf-8">
-    <title>My Pen</title>
+    <title>My PageStatus</title>
    
    <script>
    function init()
 {
-  let b = document.querySelector("#pageStatus");
-  b.innerHTML = 'PAGE LOADED';                             
+  let var = document.querySelector("#pageStatus");
+  var.innerHTML = 'PAGE LOADED';                             
 }
   </script>
   
@@ -22,6 +22,6 @@
    
   </head>
   <body onLoad='init();'>
-    <p>Page Status: <span id="pageStatus">PAGE NOT LOADED</span></p>
+    <p>Page Status: <span id="pageStatus">NOT LOADING!</span></p>
   </body>
 </html>
